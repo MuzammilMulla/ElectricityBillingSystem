@@ -3,8 +3,8 @@ import java.util.InputMismatchException;
 import java.util.Random;
 
 class CalculateElectricity extends Greetings {
-    public int unitsConsumed;
-    public double amount;
+    private int unitsConsumed;
+    private double amount;
 
     public int getUnitsConsumed() {
         return unitsConsumed;
