@@ -3,9 +3,9 @@ import java.util.Scanner;
 import  java.text.SimpleDateFormat;
 
 class Greetings{
-    public String billNo;
-    public String name;
-    public String phone;
+    private String billNo;
+    private String name;
+    private String phone;
 
     public void getName(String next) {}
     public void getPhone(String next) {}
